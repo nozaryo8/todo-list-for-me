@@ -10,3 +10,5 @@ pydantic[email]==1.6.1
 python-jose[cryptography]==3.2.0
 python-multipart==0.0.6
 python-dotenv==1.0.0
+passlib[bcrypt]==1.7.4  # パスワードハッシュ化用
+email-validator==1.1.3  # メールアドレス検証用
